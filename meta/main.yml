@@ -2,25 +2,33 @@
 galaxy_info:
   author: lotusnoir
   role_name: config_pdns_content
-  description: "Add records inside powerdns thru api, can create all zone typoes and manage auto ptr, for large amounts of records we shouldnt use this role as it takes time"
+  description: "Add records thru api, can create all zone typoes and manage auto ptr, not recommanded for large amounts of records"
   license: "Apache License, Version 2.0"
-  min_ansible_version: 2.8
+  min_ansible_version: "2.8"
 
   platforms:
     - name: "Ubuntu"
       versions:
         - "focal"
-        - "bionic"
         - "jammy"
+        - "noble"
     - name: "Debian"
       versions:
         - "buster"
         - "bullseye"
         - "bookworm"
+        - "trixie"
     - name: "Rocky"
       versions:
         - "8"
+        - "9"
+        - "10"
     - name: "OracleLinux"
+      versions:
+        - "8"
+        - "9"
+        - "10"
+    - name: "RedHat"
       versions:
         - "8"
         - "9"

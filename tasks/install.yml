@@ -1,7 +1,7 @@
 ---
-#- name: install requierement package to use module
-#  apt:
-#    name: python-requests
+# - name: install requierement package to use module
+#   apt:
+#     name: python-requests
 
 - name: "Create Zones"
   powerdns_zone:

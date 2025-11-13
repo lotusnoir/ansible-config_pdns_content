@@ -4,11 +4,10 @@ pdns_content_api_port: 443
 pdns_content_api_key: xxxxxxxxxxxx
 pdns_content_api_proto: https
 pdns_content_default_domain: "exemple.net"
-pdns_content_records: ""
-pdns_content_create_zone: ""
+pdns_content_create_zone: []
 #  - { name: exemple.com }
 #  - { name: 40.168.192.in-addr.arpa }
-#pdns_records:
+pdns_content_records: []
 #  - { name: 4207.ixr.nokia.p75th2.paris.kosc.net, type: A, dest: 10.25.1.100 }
 #  - { name: neo4j.prod.kosc.net, type: CNAME, dest: privwww-01.prod.kosc.net }
 #  - { name: 138.33.64.10.in-addr.arpa, type: PTR, dest: win-ad-01.prod.kosc.net, zone: 33.64.10.in-addr.arpa }
